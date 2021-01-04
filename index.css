@@ -1,0 +1,25 @@
+body {
+    background-color: burlywood;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+h1 {
+    color: antiquewhite;
+    transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+    color: orangered;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
