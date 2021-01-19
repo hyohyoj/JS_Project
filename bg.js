@@ -9,7 +9,7 @@ function handleImgLoad() {
 
 function paintImage(imgNumber) {
     const image = new Image();
-    image.src = `/JS_WS/js_Basic/images/neon${imgNumber + 1}.jpg`;
+    image.src = `images/neon${imgNumber + 1}.jpg`;
 
     if(imgNumber === 1) {
         h1.classList.toggle("flux");    //toggle -> 클래스가 있으면 삭제, 없으면 추가
