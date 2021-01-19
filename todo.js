@@ -43,8 +43,8 @@ function paintToDo(text) {
     delBtn.innerText = "❌";
     delBtn.addEventListener("click", deleteToDo);
     span.innerHTML = text;
-    li.appendChild(span);
-    li.appendChild(delBtn); //li 안에 span, button 넣음
+    li.appendChild(delBtn);
+    li.appendChild(span); //li 안에 span, button 넣음
     li.id = newId;
     toDoList.appendChild(li);   //ul 안에 li 넣음
 
